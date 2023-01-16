@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/addingForm.css">
+    <script src="/js/jquery-3.6.3.js"></script>
+    <script src="/js/ajax.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Update Employee Data</h1>
+
+        <div class="content">
+            <form class="addEmp">
+                <div>
+                    <span id="errorID"></span>
+                    <label for="">ID</label>
+                    <input type="text" name="empID" id="empID">
+                </div>
+                <div>
+                    <span id="errorName"></span>
+                    <label for="">Name</label>
+                    <input type="text" name="empName" id="empName">
+                </div>
+                <div>
+                    <span id="errorAge"></span>
+                    <label for="">Age</label>
+                    <input type="text" name="empAge" id="empAge">
+                </div>
+                <div>
+                    <span id="errorSalary"></span>
+                    <label for="">Salary</label>
+                    <input type="text" name="empSalary" id="empSalary">
+                </div>
+                <div>
+                    <input type="submit" name="" value="Update" id="update">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
