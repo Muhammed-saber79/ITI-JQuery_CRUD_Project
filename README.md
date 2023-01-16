@@ -64,6 +64,7 @@ $.ajax({
         }
     })
 ```
+![All Employees Data](shots/all.png)
 
 ---
 - Add New Employee <br>
@@ -81,6 +82,7 @@ $("#add").click(function(event){
     })
 })
 ```
+![All Employees Data](shots/add.png)
 
 ---
 - Update Employee Data<br>
